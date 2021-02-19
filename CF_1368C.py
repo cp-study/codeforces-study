@@ -1,0 +1,10 @@
+n = int(input())
+print(3*n+4)
+print(0,0)
+print(1,0)
+print(0,1)
+print(1,1)
+for i in range(n):
+    print(i+1,i+2)
+    print(i+2,i+1)
+    print(i+2,i+2)
