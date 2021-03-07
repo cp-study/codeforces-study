@@ -21,7 +21,7 @@ for j in range(t):
             x-=1
         if (x,y) in d:
             if i-d[(x,y)] < r-l:
-                r= i
+                r = i
                 l = d[(x,y)]
         d[(x,y)] = i+1
     if l == -1:
